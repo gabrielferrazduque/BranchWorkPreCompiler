@@ -109,10 +109,10 @@ int main() {
     y = x + 5;
 } 
   1
-x = 3
+ int();x = 3
 2
-t1 = x + 5
+double();t1 = x + 5
 3
-y = t1
+main();y = t1
 } 
-
+return
