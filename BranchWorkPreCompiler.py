@@ -1,7 +1,7 @@
 
 import re, sys
 
-# Scanner Léxico
+Scanner Léxico
 TOKEN_REGEX = [
     ('COMMENT', r'//.*|/\*[\s\S]*?\*/'),
     ('MAIN', r'\bmain\b'),
