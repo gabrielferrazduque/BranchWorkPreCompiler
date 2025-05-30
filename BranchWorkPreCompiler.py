@@ -48,7 +48,12 @@ class SymbolTable:
         for scope in reversed(self.scopes):
             if id in scope: return scope[id]
         raise Exception(f"Não declarado: {id}")
-
+              def match(self, kind, value=None):
+    current = self.current()
+    if current.type == kind and (value is None or current.value == value):
+        self.advance()
+    else:
+        raise RuntimeError(f"Expected {kind}{' with value ' + value if value else ''}, but got {current}")
 class Parser:
     def __init__(self, tokens): self.tokens, self.pos, self.symtab, self.code, self.temp = tokens, 0, SymbolTable(), [], 0
     def current(self): return self.tokens[self.pos]
@@ -89,10 +94,25 @@ def compile_source(source):
     scanner = Scanner(source); tokens = scanner.tokenize()
     parser = Parser(tokens); parser.program()
     return parser.code
-
-if __name__ == '__main__':
+  
+if __name__ == '__main__': 
     if len(sys.argv) != 2: print("Uso: python compiler.py <arquivo>"); exit(1)
     with open(sys.argv[1]) as f: code = f.read()
     intermediate_code = compile_source(code)
     print("Código Intermediário:")
     for line in intermediate_code: print(line) 
+self.match('(') self.match('SYMBOL', '('). 
+    
+int main() {
+    int x, y;
+    x = 3;
+    y = x + 5;
+} 
+  1
+x = 3
+2
+t1 = x + 5
+3
+y = t1
+} 
+
