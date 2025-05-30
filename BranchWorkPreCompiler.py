@@ -108,6 +108,13 @@ int main() {
     x = 3;
     y = x + 5;
 } 
+
+        def match(self, kind, value=None):
+    current = self.current()
+    if current.type == kind and (value is None or current.value == value):
+        self.advance()
+    else:
+        raise RuntimeError(f"Expected {kind}{' with value ' + value if value else ''}, but got {current}")
   1
  int();x = 3
 2
