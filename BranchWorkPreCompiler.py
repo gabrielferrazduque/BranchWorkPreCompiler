@@ -1,4 +1,5 @@
 
+
 import re, sys
 
 Scanner Léxico
@@ -121,5 +122,89 @@ int main() {
 double();t1 = x + 5
 3
 main();y = t1
-} 
-return()
+()
+return() 
+return 0; 
+    intermediate_code = compile_source(code)
+    print("Código Intermediário:")
+    for line in intermediate_code: print(line)
+    intermediate_code = compile_source(code)
+    print("Código Intermediário:")
+    for line in intermediate_code: print(line)
+    intermediate_code = compile_source(code)                    
+    print("Código Intermediário:")
+    for line in intermediate_code: print(line)
+    intermediate_code = compile_source(code)
+
+
+    print("Código Intermediário:")
+    for line in intermediate_code: print(line)
+    intermediate_code = compile_source(code)
+    print("Código Intermediário:")
+    for line in intermediate_code: print(line)
+    intermediate_code = compile_source(code)
+    print("Código Intermediário:")
+    for line in intermediate_code: print(line)    intermediate_code = compile_source(code)
+    print("Código Intermediário:")                      
+    for line in intermediate_code: print(line)
+    intermediate_code = compile_source(code)
+    print("Código Intermediário:")
+    for line in intermediate_code: print(line)
+    intermediate_code = compile_source(code)
+    print("Código Intermediário:")
+    for line in intermediate_code: print(line)
+    intermediate_code = compile_source(code)
+    print("Código Intermediário:")
+    for line in intermediate_code: print(line)
+    intermediate_code = compile_source(code)
+    print("Código Intermediário:")
+    for line in intermediate_code: print(line)
+    intermediate_code = compile_source(code)
+    print("Código Intermediário:")
+    for line in intermediate_code: print(line)
+    intermediate_code = compile_source(code)
+    print("Código Intermediário:")
+    for line in intermediate_code: print(line)
+    intermediate_code = compile_source(code)
+    print("Código Intermediário:")
+    for line in intermediate_code: print(line)
+    intermediate_code = compile_source(code)
+    print("Código Intermediário:")
+
+    for line in intermediate_code: print(line)
+    intermediate_code = compile_source(code)
+    print("Código Intermediário:")
+
+    for line in intermediate_code: print(line)
+    for line in intermediate_code: print(line)
+    for line in intermediate_code: print(line)
+    for line in intermediate_code: print(line)
+    for line in intermediate_code: print(line)
+    for line in intermediate_code: print(line)
+    for line in intermediate_code: print(line)    for line in intermediate_code: print(line)
+    for line in intermediate_code: print(line)
+    for line in intermediate_code: print(line)
+    for line in intermediate_code: print(line)
+    for line in intermediate_code: print(line)
+    for line in intermediate_code: print(line)  for line in intermediate_code: print(line)      
+
+
+    for line in intermediate_code: print(line)    for line in intermediate_code: print(line)
+    for line in intermediate_code: print(line)    for line in intermediate_code: print(line)
+    for line in intermediate_code: print(line)              
+
+
+
+
+
+ return 1;   for line in intermediate_code: print(line) 
+     for line in intermediate_code: print(line)
+    for line in intermediate_code: print(line)
+    for line in intermediate_code: print(line)
+    for line in intermediate_code: print(line)                                                   
+
+return 0;
+
+
+
+
