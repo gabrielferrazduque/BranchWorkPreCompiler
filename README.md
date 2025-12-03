@@ -18,6 +18,8 @@ TOKEN_REGEX = [
     ('INVALID', r'.')
 ]
 
+
+
 TOKEN_RE = re.compile('|'.join(f'(?P<{n}>{r})' for n, r in TOKEN_REGEX))
 
 class Scanner:
